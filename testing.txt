@@ -1,0 +1,1 @@
+Testing file to be copied to EC2 VPC
