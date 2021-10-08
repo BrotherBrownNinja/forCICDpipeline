@@ -15,13 +15,10 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="HostName" elementType="Argument">
             <stringProp name="Argument.name">HostName</stringProp>
-            <stringProp name="Argument.value">nightly-reader.savvasrealizedev.com</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
             <stringProp name="Argument.desc">perf</stringProp>
           </elementProp>
-          <elementProp name="Mylibrary" elementType="Argument">
-            <stringProp name="Argument.name">Mylibrary</stringProp>
-            <stringProp name="Argument.value">stage-mylibrary-bff.savvasrealizedev.com</stringProp>
+          <elementProp name="Mylibrary" elementType="Argume
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="ClientId" elementType="Argument">
@@ -36,13 +33,9 @@
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="Password" elementType="Argument">
-            <stringProp name="Argument.name">Password</stringProp>
-            <stringProp name="Argument.value">testing123$</stringProp>
+    
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
-          <elementProp name="Username" elementType="Argument">
-            <stringProp name="Argument.name">Username</stringProp>
-            <stringProp name="Argument.value">rlz_nightly_teacher_77113393752</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
