@@ -1,0 +1,69 @@
+Connecting to our Jenkins EC2 Instance via ssh
+
+
+ssh ubuntu@54.147.182.143 -i 
+
+
+
+
+
+
+
+
+
+
+
+
+Open an SSH client.
+Locate your private key file. The key used to launch this instance is jaicanadam_ssh_key.pem
+Run this command, if necessary, to ensure your key is not publicly viewable.
+ chmod 400 jaicanadam_ssh_key.pem
+Connect to your instance using its Public DNS:
+
+     ec2-54-147-182-143.compute-1.amazonaws.com
+
+Example:
+
+ ssh -i "jaicanadam_ssh_key.pem" ubuntu@ubuntu@54.147.182.143
+
+
+
+
+
+Access Jenkins Controller Server in AWS with
+54.147.182.143:8080
+
+
+username: jaicanadam_devops
+password: opensesame
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
