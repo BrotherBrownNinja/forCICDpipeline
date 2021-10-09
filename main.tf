@@ -72,7 +72,7 @@ variable "amiid" {
 resource "aws_instance" "terraform_ec2_instance" {
     ami = var.amiid
     instance_type = "t3.micro"
-    key_name = "terraform_project"
+    key_name = "jaicanadam_ssh_key"
     # vpc_security_group_ids = [aws_security_group.terraform_ec2_sg.id]
 
     network_interface {
